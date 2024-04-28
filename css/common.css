@@ -1,0 +1,44 @@
+.slick-prev:before,
+.slick-next:before {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+}
+.slick-slide {
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+
+.slick-prev {
+  left: 20px;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 20px;
+  z-index: 1;
+}
+
+.brand-slider {
+  background: var(--clr-white-1);
+}
+
+.brand-slider .single-brand img {
+  background: var(--clr-white-2);
+  color: var(--clr-black-1);
+}
+.top-brand .single-brand .brand-img {
+  background: var(--clr-white-1);
+  width: 100%;
+}
+.custom-card .card-info {
+  background: var(--clr-white-1);
+  padding-bottom: 16px;
+}
+
+.custom-card-star span {
+  color: var(--clr-yellow);
+  font-size: var(--txt-3);
+}

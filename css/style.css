@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: 0;
+  border: 0;
+}
+
+:root {
+  --heading-1: 86px;
+  --heading-2: 48px;
+  --heading-3: 32px;
+  --heading-4: 24px;
+  --txt-1: 20px;
+  --txt-2: 18px;
+  --txt-3: 16px;
+  --txt-4: 14px;
+  --txt-5: 13px;
+  --txt-6: 12px;
+  --font-bold: 700;
+  --font-regular: 400;
+  --clr-yellow: #ffd800;
+  --clr-primary: #194e8a;
+  --clr-white-1: #ffffff;
+  --clr-white-2: #dee5ed;
+  --clr-white-3: #f7f8f8;
+  --clr-white-4: #e6e7e7;
+  --clr-gray-1: #aeb2b2;
+  --clr-gray-2: #676e6e;
+  --clr-white-4: #e6e7e7;
+  --clr-black-1: #010e0e;
+  --clr-black-2: #1a2626;
+
+  --clr-bg: #f1f0ee;
+}
+
+body {
+  background: var(--clr-bg);
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.custom-padding {
+  padding: 56px 0px;
+}
+.custom-container {
+  max-width: 1536px;
+  width: 100%;
+}
+.prevBtn {
+  font-size: var(--txt-3);
+  color: var(--clr-primary);
+  background: transparent;
+}
+.nextBtn {
+  font-size: var(--txt-3);
+  color: var(--clr-primary);
+  background: transparent;
+}
+.heading-1 {
+  font-size: var(--heading-1);
+  color: var(--clr-primary);
+  font-weight: var(--font-bold);
+  line-height: 96px;
+}
+
+.heading-2 {
+  font-size: var(--heading-2);
+}
+
+.heading-3 {
+  font-size: var(--heading-3);
+}
+
+.heading-4 {
+  color: var(--clr-black-1);
+  font-size: var(--heading-4);
+  font-weight: 540;
+}
+.p1-black-bold {
+  color: var(--clr-black-1);
+  font-size: var(--txt-1);
+  font-weight: 540;
+  line-height: 30px;
+}
+
+.p2-black-bold {
+  color: var(--clr-black-1);
+  font-size: var(--txt-2);
+  font-weight: var(--font-bold);
+  line-height: 27px;
+}
+.p3-black {
+  font-size: var(--txt-3);
+  font-weight: var(--font-regular);
+  color: var(--clr-black-1);
+  line-height: 24px;
+}
+.p3-black-bold {
+  color: var(--clr-black-1);
+  font-size: var(--txt-3);
+  font-weight: var(--font-bold);
+  line-height: 24px;
+}
+
+.p4-black {
+  color: var(--clr-black-1);
+  font-size: var(--txt-4);
+  font-weight: var(--font-regular);
+  line-height: 21px;
+}
+
+.p5-black {
+  color: var(--clr-black-2);
+  font-size: var(--txt-5);
+  font-weight: var(--font-regular);
+  line-height: 21px;
+}

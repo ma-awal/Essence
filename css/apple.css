@@ -1,0 +1,4 @@
+.apple .icon img {
+  background: var(--clr-white-4);
+  line-height: 100%;
+}

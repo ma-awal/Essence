@@ -1,0 +1,39 @@
+.deal {
+}
+.deal .deal-media {
+  background: var(--clr-white-1);
+}
+.deal .deal-head a span i {
+  font-size: var(--txt-4);
+}
+
+.deal .star span {
+  color: var(--clr-yellow);
+  font-size: var(--txt-3);
+}
+.deal .star span:nth-of-type(5) {
+  color: var(--clr-gray-1);
+}
+
+.deal .price span:nth-of-type(2),
+.deal .price span:nth-of-type(3) {
+  font-size: var(--txt-4);
+  color: var(--clr-gray-2);
+}
+
+.deal .price p {
+  color: var(--clr-gray-2);
+}
+.deal .btns {
+  background: var(--clr-white-3);
+}
+
+.deal .btns button {
+  font-size: var(--txt-4);
+  font-weight: 400;
+  color: var(--clr-gray-2);
+  background: transparent;
+}
+.add-to-cart {
+  background: var(--clr-primary);
+}

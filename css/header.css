@@ -1,0 +1,58 @@
+header {
+  background: var(--clr-white-1);
+}
+
+.top-nav .nav-heading p {
+  color: var(--clr-primary);
+}
+.prevBtn {
+  color: var(--clr-primary);
+  background: transparent;
+}
+.nextBtn {
+  color: var(--clr-primary);
+  background: transparent;
+}
+.main-nav {
+  background: var(--clr-primary);
+}
+.search-bar {
+  background: var(--clr-white-1);
+  width: 752px;
+  border-radius: 100px;
+  padding: 16px 24px;
+  gap: 24px;
+}
+.search-bar .search-btn {
+  background: transparent;
+  padding-right: 20px;
+  border-right: 1px solid var(--clr-white-2);
+}
+.search-bar .search-btn i {
+  color: var(--clr-primary);
+  font-size: var(---txt-2);
+}
+.search-bar input {
+  font-size: var(--txt-4);
+  color: var(--clr-white-3);
+  border: none;
+  outline: none;
+}
+.search-bar input:focus {
+  border: 0;
+  outline: none;
+  box-shadow: 0;
+}
+
+.signin-cart a {
+  font-size: var(--txt-3);
+  color: var(--clr-white-1);
+}
+
+.base-nav .brand-links {
+  gap: 40px;
+}
+
+.base-nav .brand-links a {
+  color: var(--clr-primary);
+}
